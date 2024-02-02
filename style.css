@@ -7,11 +7,15 @@
 
 body {
     height: 100vh;
-    background: lightpink;
+    background-image: linear-gradient(lightpink, lightcoral);
 }
 
 h1 {
     text-align: center;
+}
+
+h1:hover {
+    color: lightpink;
 }
 
 .container {
@@ -29,7 +33,7 @@ h1 {
 }
 
 button {
-    background-color: #ee4d38;
+    background-color: lightcoral;
     border: none;
     color: white;
     padding: 1em 2em;
@@ -37,9 +41,12 @@ button {
     font-size: 1em;
     cursor: pointer;
     margin-top: 1.5em;
+    transition-duration: 0.2s;
 }
 
-
+button:hover {
+    background-color: lightpink;
+}
 
 p {
     color: #1a194c;
